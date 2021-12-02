@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SimpleKickingInterface">
+  <grid id="27dc6" binding="MAIN" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="14" y="16" width="1022" height="513"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised"/>
+    <children>
+      <grid id="77d4c" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="8cbcd" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4b8d7" class="javax.swing.JComboBox" binding="startingYearBox">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Starting Year--"/>
+                    <item value="ALL"/>
+                    <item value="2021"/>
+                    <item value="2020"/>
+                    <item value="2019"/>
+                    <item value="2018"/>
+                    <item value="2017"/>
+                    <item value="2016"/>
+                    <item value="2015"/>
+                    <item value="2014"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="31483" class="javax.swing.JComboBox" binding="endingMonthBox">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Ending Month--"/>
+                    <item value="ALL"/>
+                    <item value="January"/>
+                    <item value="February"/>
+                    <item value="March"/>
+                    <item value="April"/>
+                    <item value="May"/>
+                    <item value="June"/>
+                    <item value="July"/>
+                    <item value="August"/>
+                    <item value="September"/>
+                    <item value="October"/>
+                    <item value="November"/>
+                    <item value="December"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="365ec" class="javax.swing.JComboBox" binding="endingYearBox">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Ending Year--"/>
+                    <item value="ALL"/>
+                    <item value="2021"/>
+                    <item value="2020"/>
+                    <item value="2019"/>
+                    <item value="2018"/>
+                    <item value="2017"/>
+                    <item value="2016"/>
+                    <item value="2015"/>
+                    <item value="2014"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="d5ec6" class="javax.swing.JCheckBox" binding="leftHashCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Left Hash"/>
+                </properties>
+              </component>
+              <component id="bf028" class="javax.swing.JCheckBox" binding="leftMiddleCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Left Middle"/>
+                </properties>
+              </component>
+              <component id="7468b" class="javax.swing.JCheckBox" binding="middleCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Middle"/>
+                </properties>
+              </component>
+              <component id="f04ae" class="javax.swing.JCheckBox" binding="rightMiddleCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Right Middle"/>
+                </properties>
+              </component>
+              <component id="44a09" class="javax.swing.JCheckBox" binding="rightHashCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Right Hash"/>
+                </properties>
+              </component>
+              <component id="11702" class="javax.swing.JTextField" binding="minimumNumberOfKicksBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Minimum Number of Kicks in Session"/>
+                </properties>
+              </component>
+              <component id="7b13c" class="javax.swing.JTextField" binding="maximumNumberOfKicksBox">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Maximum Number of Kicks in Session"/>
+                </properties>
+              </component>
+              <component id="1d8a6" class="javax.swing.JComboBox" binding="startingMonthBox">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Starting Month--"/>
+                    <item value="ALL"/>
+                    <item value="January"/>
+                    <item value="February"/>
+                    <item value="March"/>
+                    <item value="April"/>
+                    <item value="May"/>
+                    <item value="June"/>
+                    <item value="July"/>
+                    <item value="August"/>
+                    <item value="September"/>
+                    <item value="October"/>
+                    <item value="November"/>
+                    <item value="December"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="618e" class="javax.swing.JCheckBox" binding="allDataBox">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ALL DATA"/>
+                </properties>
+              </component>
+              <component id="b644f" class="javax.swing.JComboBox" binding="minimumKickDistanceBox">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Minimum Kick Distance--"/>
+                    <item value="ALL"/>
+                    <item value="20"/>
+                    <item value="25"/>
+                    <item value="30"/>
+                    <item value="35"/>
+                    <item value="40"/>
+                    <item value="45"/>
+                    <item value="50"/>
+                    <item value="55"/>
+                    <item value="60"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="8d683" class="javax.swing.JComboBox" binding="maximumKickDistanceBox">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="--Maximum Kick Distance--"/>
+                    <item value="ALL"/>
+                    <item value="20"/>
+                    <item value="25"/>
+                    <item value="30"/>
+                    <item value="35"/>
+                    <item value="40"/>
+                    <item value="45"/>
+                    <item value="50"/>
+                    <item value="55"/>
+                    <item value="60"/>
+                    <item value="65"/>
+                    <item value="70"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="15107" class="javax.swing.JButton" binding="calculateButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Calculate"/>
+            </properties>
+          </component>
+          <component id="6a1a6" class="javax.swing.JTextArea" binding="moreStatisticsTextArea" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Statistics:"/>
+            </properties>
+          </component>
+          <component id="1d537" class="javax.swing.JComboBox" binding="xAxisBox">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="--X-AXIS--"/>
+                <item value="Kick Number"/>
+                <item value="Kick Distance"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e0594" class="javax.swing.JComboBox" binding="yAxisBox">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="10" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="--Y-AXIS--"/>
+                <item value="Kick Distance"/>
+                <item value="Make Percentage"/>
+              </model>
+            </properties>
+          </component>
+          <component id="32933" class="javax.swing.JButton" binding="generateGraphButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Generate Graph"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
