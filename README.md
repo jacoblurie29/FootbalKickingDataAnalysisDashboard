@@ -16,4 +16,4 @@ first searches then adds the kick.
 
 There is no need to sort the individual kicks within each session since they are already sorted within the CSV.
 
-The statistical concept of the interface was tested in the SimpleKickingDataAnalysis.java file and moved to the SimpleKickingInterface.java file which connected to the Java swing form.
+The statistical concept of the interface was tested in the SimpleKickingDataAnalysis.java file and moved to the SimpleKickingInterface.java file which is connected to the SimpleKickingInterface.form.
